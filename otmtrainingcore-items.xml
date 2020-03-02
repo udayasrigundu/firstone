@@ -77,7 +77,7 @@
 				</attribute>
 			</attributes>-->
 	
-			
+			<!--Added first cronjob -->
 			<itemtype code="FirstCronJob" extends="CronJob" 
 						autocreate="true" generate="true">
 					<attributes>
