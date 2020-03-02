@@ -29,6 +29,6 @@ public class FirstJob extends AbstractJobPerformable<FirstCronJobModel>
 			LOG.info(userName + "hello");
 
 			return new PerformResult(CronJobResult.SUCCESS, CronJobStatus.FINISHED);
-
+		//register this job in core-spring.xml file
 	}
 }
